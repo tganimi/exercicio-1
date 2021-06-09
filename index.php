@@ -1,6 +1,6 @@
 <?php
 
-include 'includes/autoload.php';
+require_once 'classes/Exercicio1/Exercicio1.php';
 
 $location = [
     'Brasília' => ['country' => 'Brasil', 'preposition' => 'do'],
@@ -15,5 +15,5 @@ $location = [
  */
 ksort($location);
 
-$locations = new Exercicio1\Exercicio1();
+$locations = new Exercicio1();
 $locations->printLocations($location);

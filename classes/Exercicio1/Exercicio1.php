@@ -1,7 +1,5 @@
 <?php
 
-namespace Exercicio1;
-
 class Exercicio1
 {
     public function printLocations($location)
